@@ -1,7 +1,5 @@
-module df2 (
-    input wire A, B, SEL, CLK, RST,
-    output reg Q
-);
+module df2 (input wire A, B, SEL, CLK, RST, 
+            output reg Q);
 
     wire and_out;
     wire or_out;
